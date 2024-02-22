@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #777;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: inline-block; /* Change to inline-block */
+            width: 80%; /* Adjusted width */
+        }
+
+        nav img {
+            width: 10%; /* Styling only the image in the nav */
+        }
+
+        main {
+            background-color: #f0f0f0;
+            font-size: 18px;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Commented out existing styling for li element */
+        /*
+        li {
+            display: inline-block;
+            width: 100%;
+        }
+        */
+
+        .grid {
+            display: grid;
+            grid-template-columns: 40% 40%; /* Two column grid */
+            justify-content: space-between; /* Adjusted justify-content */
+            align-items: center; /* Adjusted align-items */
+            row-gap: 20px; /* Added row-gap */
+        }
+
+        .grid img {
+            width: 100%; /* Styling only the images in the grid */
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap; /* Adjusted flex-wrap */
+            justify-content: space-between; /* Adjusted justify-content */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Page Title</h1>
+    </header>
+
+    <!-- Skip to Main Content link -->
+    <a href="#main-content">Skip to Main Content</a>
+
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+        <img src="nav-image.jpg" alt="Navigation Image">
+    </nav>
+
+    <main id="main-content"> <!-- Added id to main tag -->
+        <h2>Section Title</h2>
+        <p>This is a basic HTML template. Edit the content of this section as needed.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+
+</body>
+</html>
